@@ -6,14 +6,14 @@ import time
 
 
 def play_hand(bet, chips, player, dealer, deck):
-    """
+    """Play hand
 
-    :param bet:
-    :param chips:
-    :param player:
-    :param dealer:
-    :param deck:
-    :return:
+    :param bet: amount of the bet
+    :param chips: players total chips
+    :param player: player hand
+    :param dealer: dealer hand
+    :param deck: the deck of cards
+    :return: None
     """
     bj_settings = Settings()
     pygame.display.set_caption("Blackjack")
